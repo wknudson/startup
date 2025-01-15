@@ -26,13 +26,14 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Meet Q-Buddy, the ultimate solution to long lines at amusement parks. Our smart queuing system transforms the waiting experience by letting guests join virtual lines, freeing them to explore and enjoy the park while they wait. Powered by AI, Q-Buddy optimizes crowd flow and creates personalized schedules, enhancing the guest experience and increasing park efficiency. With Q-Buddy, we’re not just saving time—we’re creating more fun and memorable moments for everyone.
 
 ### Design
 
-![Design image](placeholder.png)
+![Q-Buddy](https://github.com/user-attachments/assets/4e017def-1bab-4fa9-892f-eb0d9ff97b1a)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+This design for Q-Buddy combines vibrant colors and playful elements to evoke the joy and excitement of amusement parks while maintaining a sleek, modern feel. The layout is user-friendly and mobile-responsive, with clear sections for "How It Works," "Why Choose Q-Buddy," and a strong call-to-action at the footer, ensuring easy navigation and engagement. The cheerful illustrations and dynamic icons reinforce the innovative and fun nature of Q-Buddy’s virtual queuing system.
 
 ```mermaid
 sequenceDiagram
@@ -43,20 +44,20 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Virtual Queueing
+- Personalized Itineraries
+- Real-Time Notifications
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Build the foundational structure of the website, including sections like the homepage, "How It Works," "Why Choose Q-Buddy," and the login/signup pages.
+- **CSS** - Design an engaging and vibrant visual theme using CSS for colors, typography, and layouts.
+- **React** - Build a dynamic and interactive frontend for features like virtual queuing, personalized itineraries, and real-time notifications.
+- **Service** - Develop backend APIs to handle operations like queue management, ride availability, and user data retrieval.
+- **DB/Login** - Store session data for personalized itineraries and real-time updates.
+- **WebSocket** - Use WebSocket to deliver instant ride status changes or reservation updates directly to the user interface.
 
 ## 🚀 AWS deliverable
 
