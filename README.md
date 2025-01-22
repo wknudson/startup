@@ -35,12 +35,6 @@ Meet Q-Buddy, the ultimate solution to long lines at amusement parks. Our smart 
 
 This design for Q-Buddy combines vibrant colors and playful elements to evoke the joy and excitement of amusement parks while maintaining a sleek, modern feel. The layout is user-friendly and mobile-responsive, with clear sections for "How It Works," "Why Choose Q-Buddy," and a strong call-to-action at the footer, ensuring easy navigation and engagement. The cheerful illustrations and dynamic icons reinforce the innovative and fun nature of Q-Buddy’s virtual queuing system.
 
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
 
 ### Key features
 
