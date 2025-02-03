@@ -25,11 +25,9 @@ I am getting better at noticing how it is the framework of the website. I still 
 
 ## CSS
 
-This took a couple hours to get it how I wanted. It was important to make it responsive and Bootstrap helped with that. It looks great on all kinds of screen sizes.
+I did the CSS practice. It was kind of hard and I had to look up a lot of things because I did not know the key words. I got it to a point that looks good.
 
-Bootstrap seems a bit like magic. It styles things nicely, but is very opinionated. You either do, or you do not. There doesn't seem to be much in between.
 
-I did like the navbar it made it super easy to build a responsive header.
 
 ```html
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
