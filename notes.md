@@ -27,7 +27,7 @@ I am getting better at noticing how it is the framework of the website. I still 
 
 I did the CSS practice. It was kind of hard and I had to look up a lot of things because I did not know the key words. I got it to a point that looks good.
 
-
+I looked more into the bootstrap to understand it better. Hopefully in the future I can use it to the full potential.
 
 ```html
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
