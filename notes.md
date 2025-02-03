@@ -21,7 +21,7 @@ No problems worked just like it said in the [instruction](https://github.com/web
 
 I messed around with the links between the three views work great using the `a` element. All connect together and there is a link to my github on every page.
 
-The part I didn't like was the duplication of the header and footer code. This is messy, but it will get cleaned up when I get to React.
+I am getting better at noticing how it is the framework of the website. I still find it annoying that I shouldnt do any style edits in the HTML page.
 
 ## CSS
 
