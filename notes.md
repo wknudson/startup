@@ -30,7 +30,7 @@ I did the CSS practice. It was kind of hard and I had to look up a lot of things
 
 I looked more into the bootstrap to understand it better. Hopefully in the future I can use it to the full potential.
 
-Basic setup of my styles sheet. Making sure flex is there and media aswell. 
+Basic setup of my styles sheet. Making sure flex is there and media aswell. Added a hover function and somewhat copied the styles over to my other pages.
 
 ```styles
 body {
