@@ -34,6 +34,8 @@ I looked more into the bootstrap to understand it better. Hopefully in the futur
 
 Basic setup of my styles sheet. Making sure flex is there and media aswell. Added a hover function and somewhat copied the styles over to my other pages.
 
+Adding accordion button is much harder than i thought it would be. I was able to create buttons for each of the sidebar headers.
+
 ```styles
 body {
     display: flex;
@@ -66,6 +68,51 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    
+}
+
+nav a:hover {
+    background-color: rgb(0, 97, 139);
+}
+
+/* Accordion styles */
+.accordion {
+    margin-top: 20px;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    background-color: hsl(180, 57%, 38%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.accordion-button:hover {
+    background-color: hsl(180, 67%, 28%);
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: hsl(180, 10%, 90%);
+    display: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+/* Open state of accordion content */
+.accordion-content.open {
+    display: block;
 }
 
 /* Login Form */
@@ -94,11 +141,11 @@ nav a {
 }
 
 footer {
-    flex: 0 0 30px;
+    flex: 0 0 15px;
     background: hsl(180, 10%, 10%);
     text-align: center;
     color: white;
-    padding: 5px;
+    padding: 3px;
 }
 
 main {
@@ -134,7 +181,6 @@ section:nth-child(2) {
         display: none;
     }
 }
-
     
 ```
 
