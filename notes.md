@@ -16,6 +16,7 @@ Was a fairly easy process. Just had to make sure that my IP was good and that I 
 ## Caddy
 
 No problems worked just like it said in the [instruction](https://github.com/webprogramming260/.github/blob/main/profile/webServers/https/https.md).
+made sure that in my git bash i edited it correctly to send to my specific domain.
 
 ## HTML
 
