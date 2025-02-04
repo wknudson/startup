@@ -24,6 +24,8 @@ I messed around with the links between the three views work great using the `a` 
 
 I am getting better at noticing how it is the framework of the website. I still find it annoying that I shouldnt do any style edits in the HTML page.
 
+Added some pictures and replaced the placeholders. I found it easy to save image as instead of link from the internet.
+
 ## CSS
 
 I did the CSS practice. It was kind of hard and I had to look up a lot of things because I did not know the key words. I got it to a point that looks good.
