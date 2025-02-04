@@ -30,42 +30,112 @@ I did the CSS practice. It was kind of hard and I had to look up a lot of things
 
 I looked more into the bootstrap to understand it better. Hopefully in the future I can use it to the full potential.
 
-```html
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand">
-            <img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" />
-            Calmer
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="play.html">Play</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Logout</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+Basic setup of my styles sheet. Making sure flex is there and media aswell. 
+
+```styles
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    flex: 0 0 80px;
+    background: hsl(184, 61%, 47%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    gap: 10px;
+}
+
+.login-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    background-color: hsl(180, 57%, 38%);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: hsl(180, 67%, 28%);
+}
+
+footer {
+    flex: 0 0 30px;
+    background: hsl(180, 10%, 10%);
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-child(1) {
+    flex: 1;
+    background-color: hsl(180, 10%, 80%);
+    padding: 20px;
+}
+
+section:nth-child(2) {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (orientation: portrait) {
+    main {
+        flex-direction: column;
+    }
+}
+
+@media (max-height: 700px) {
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
+
+    
 ```
 
-I also used SVG to make the icon and logo for the app. This turned out to be a piece of cake.
-
-```html
-<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100" height="100" fill="#0066aa" rx="10" ry="10" />
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="72" font-family="Arial" fill="white">C</text>
-</svg>
-```
 
 ## React Part 1: Routing
 
