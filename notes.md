@@ -37,6 +37,10 @@ Basic setup of my styles sheet. Making sure flex is there and media aswell. Adde
 Adding accordion button is much harder than i thought it would be. I was able to create buttons for each of the sidebar headers.
 
 ```styles
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -51,6 +55,29 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: center;
+    color: hsl(180, 10%, 20%);
+    margin-bottom: 15px;
+    justify-content: center;
 }
 
 nav ul {
@@ -68,11 +95,11 @@ nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    
+    justify-content: center;
 }
 
 nav a:hover {
-    background-color: rgb(0, 97, 139);
+    background-color: hsl(180, 67%, 28%);
 }
 
 /* Accordion styles */
@@ -110,7 +137,7 @@ nav a:hover {
     margin-top: 5px;
 }
 
-/* Open state of accordion content */
+/* Open accordion content */
 .accordion-content.open {
     display: block;
 }
@@ -141,7 +168,7 @@ nav a:hover {
 }
 
 footer {
-    flex: 0 0 15px;
+    flex: 0 0 10px;
     background: hsl(180, 10%, 10%);
     text-align: center;
     color: white;
@@ -174,12 +201,6 @@ section:nth-child(2) {
 }
 
 @media (max-height: 700px) {
-    header {
-        display: none;
-    }
-    footer {
-        display: none;
-    }
 }
     
 ```
