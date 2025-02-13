@@ -208,7 +208,7 @@ section:nth-child(2) {
 
 ## React Part 1: Routing
 
-Setting up Vite and React was pretty simple. I had a bit of trouble because of conflicting CSS. This isn't as straight forward as you would find with Svelte or Vue, but I made it work in the end. If there was a ton of CSS it would be a real problem. It sure was nice to have the code structured in a more usable way.
+So far it has been really confusing and hard to get the hang of. I was able to follow mostly the Simon version, but I still run into a lot of issues.
 
 ## React Part 2: Reactivity
 
