@@ -210,6 +210,8 @@ section:nth-child(2) {
 
 So far it has been really confusing and hard to get the hang of. I was able to follow mostly the Simon version, but I still run into a lot of issues. Followed the video precisely and was able to get most of it done. Had to make minor changes so my code could work. Hopefully I can get the buttons to work later on.
 
+My css styles werent correctly transfered over so I made sure to put specific styles in my app.css.
+
 ## React Part 2: Reactivity
 
 This was a lot of fun to see it all come together. I had to keep remembering to use React state instead of just manipulating the DOM directly.
