@@ -215,3 +215,4 @@ My css styles werent correctly transfered over so I made sure to put specific st
 ## React Part 2: Reactivity
 
 THis is a lot of trail and error. I think my origional idea is a bit too complex. Im hoping that just by using buttons and timers I can get the understanding of my startup across.
+Ive added functionality with onClicks and timers. I tired to keep it basic for use and comprehension.
