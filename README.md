@@ -63,41 +63,41 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [x] **HTML pages** - I did not complete this part of the deliverable.
-- [x] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [x] **Links** - I did not complete this part of the deliverable.
-- [x] **Text** - I did not complete this part of the deliverable.
-- [x] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [x] **Images** - I did not complete this part of the deliverable.
-- [x] **Login placeholder** - I did not complete this part of the deliverable.
-- [x] **DB data placeholder** - I did not complete this part of the deliverable.
-- [x] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** 
+- [x] **Proper HTML element usage** 
+- [x] **Links** 
+- [x] **Text** 
+- [x] **3rd party API placeholder** 
+- [x] **Images** 
+- [x] **Login placeholder** 
+- [x] **DB data placeholder** 
+- [x] **WebSocket placeholder**  
 
 ## 🚀 CSS deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [x] **Header, footer, and main content body** - I did not complete this part of the deliverable.
-- [x] **Navigation elements** - I did not complete this part of the deliverable.
-- [x] **Responsive to window resizing** - I did not complete this part of the deliverable.
-- [x] **Application elements** - I did not complete this part of the deliverable.
-- [x] **Application text content** - I did not complete this part of the deliverable.
-- [x] **Application images** - I did not complete this part of the deliverable.
+- [x] **Header, footer, and main content body** - Done.
+- [x] **Navigation elements** - anchors added.
+- [x] **Responsive to window resizing** - Media components added.
+- [x] **Application elements** - Buttons for each of the rides.
+- [x] **Application text content** - text for each of the rides.
+- [x] **Application images** - there are 2 images.
 
 ## 🚀 React part 1: Routing deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - Routing between login and voting components.
+- [x] **Bundled using Vite** - Uploaded vite.
+- [x] **Components** - Added jsx to all the pages.
+- [x] **Router** - Routing between login and infor pages.
 
 ## 🚀 React part 2: Reactivity
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **All functionality implemented or mocked out** - I did not complete this part of the deliverable.
-- [ ] **Hooks** - I did not complete this part of the deliverable.
+- [x] **All functionality implemented or mocked out** 
+- [x] **Hooks** - buttons for each of the rides
 
 ## 🚀 Service deliverable
 
