@@ -97,7 +97,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
 - [x] **All functionality implemented or mocked out** 
-- [x] **Hooks** - buttons for each of the rides
+- [x] **Hooks** - buttons for each of the rides and timers added with color indicators.
 
 ## 🚀 Service deliverable
 
