@@ -1,4 +1,4 @@
-# Your startup name here
+# Q-Buddy
 
 [My Notes](notes.md)
 
@@ -103,11 +103,11 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Node.js/Express HTTP service** - I did not complete this part of the deliverable.
-- [ ] **Static middleware for frontend** - I did not complete this part of the deliverable.
-- [ ] **Calls to third party endpoints** - I did not complete this part of the deliverable.
-- [ ] **Backend service endpoints** - I did not complete this part of the deliverable.
-- [ ] **Frontend calls service endpoints** - I did not complete this part of the deliverable.
+- [x] **Node.js/Express HTTP service** - Express added.
+- [x] **Static middleware for frontend** - Copied over from Simon.
+- [x] **Calls to third party endpoints** - Endpoints made for third party.
+- [x] **Backend service endpoints** - Index.js created with login endpoints
+- [x] **Frontend calls service endpoints** - Startup endpoint to fetch ride list.
 
 ## 🚀 DB/Login deliverable
 
