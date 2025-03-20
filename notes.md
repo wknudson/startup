@@ -216,3 +216,7 @@ My css styles werent correctly transfered over so I made sure to put specific st
 
 THis is a lot of trail and error. I think my origional idea is a bit too complex. Im hoping that just by using buttons and timers I can get the understanding of my startup across.
 Ive added functionality with onClicks and timers. I tired to keep it basic for use and comprehension.
+
+## Service
+
+This part was hard to wrap my head around. Once I figured out how it generally worked with all the port and API stuff, I quickly thought to add my list of available rides as part of my data set. This allows me in the future to change the rides and their descriptions much easier.
