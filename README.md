@@ -113,11 +113,11 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [x] **User registration** - I did not complete this part of the deliverable.
-- [x] **User login and logout** - I did not complete this part of the deliverable.
+- [x] **User registration** - The user can register their username and password and it will be saved
+- [x] **User login and logout** - The user can log in and log out correctly
 - [x] **Stores data in MongoDB** - I did not complete this part of the deliverable.
-- [x] **Stores credentials in MongoDB** - I did not complete this part of the deliverable.
-- [x] **Restricts functionality based on authentication** - I did not complete this part of the deliverable.
+- [x] **Stores credentials in MongoDB** - The Username is there and the Passwords are encrypted
+- [x] **Restricts functionality based on authentication** - Only the registered users can access Q-BUddy+(the premium version)
 
 ## 🚀 WebSocket deliverable
 
