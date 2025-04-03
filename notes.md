@@ -220,3 +220,7 @@ Ive added functionality with onClicks and timers. I tired to keep it basic for u
 ## Service
 
 This part was hard to wrap my head around. Once I figured out how it generally worked with all the port and API stuff, I quickly thought to add my list of available rides as part of my data set. This allows me in the future to change the rides and their descriptions much easier.
+
+## Mongo DB
+
+THe mongo DB wasnt hard to register fore and set up on the website. The tricky part was making sure that the user authentication was updated correctly and had password safety. I also made it so that the database held the available rides so they could be pulled from there.
